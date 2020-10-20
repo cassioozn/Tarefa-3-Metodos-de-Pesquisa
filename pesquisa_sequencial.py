@@ -5,6 +5,6 @@ def pesquisa_sequencial(lista, nome):
         auxiliar = lista[i]["first_name"]
         compara += 1
         if(nome == auxiliar):
-            print("Nome encontrado com ." + compara + " comparações")
+            print("Nome encontrado com ." + str(compara) + " comparações")
             print(lista[i])
             break
