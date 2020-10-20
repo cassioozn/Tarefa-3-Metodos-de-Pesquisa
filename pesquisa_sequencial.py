@@ -8,3 +8,4 @@ def pesquisa_sequencial(lista, nome):
             print("Nome encontrado com ." + str(compara) + " comparações")
             print(lista[i])
             break
+    print("Nome não encontrado")

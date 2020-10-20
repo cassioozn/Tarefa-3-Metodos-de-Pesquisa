@@ -1,6 +1,6 @@
 def pesquisa_binaria(lista, nome, inicio = 0, fim = None, compara = 0):
     if fim is None:
-        fim = len(lista)
+        fim = len(lista) - 1
 
     auxiliar = lista[int((inicio + fim)/2)]["first_name"]
 
@@ -9,7 +9,7 @@ def pesquisa_binaria(lista, nome, inicio = 0, fim = None, compara = 0):
     if(inicio > fim):
         print("Nome não encontrado.")
     elif(nome == auxiliar):
-        print("Nome encontrado com ." + str(compara) + " comparações")
+        print("Nome encontrado com ." + str(compara) + " comparações.\n")
         print(lista[int((inicio + fim)/2)])
     else:
         if(nome > auxiliar):
