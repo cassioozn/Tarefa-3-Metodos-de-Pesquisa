@@ -1,5 +1,8 @@
 # Métodos de Pesquisa
-Repositório criado para desenvolver as atividades para a disciplina de Estrutura de Dados 2 conforme proposta.
+Repositório criado para desenvolver as atividades para a disciplina de Estrutura de Dados 2 conforme proposta, com algoritmos implementados em python 3.
+
+
+Para executar o projeto, após cloná-lo, instale os requisitos via pip usando `pip3 install -r requirements.txt`, e para executar o programa, simplesmente insira `python3 main.py` para executar todo o código e exibir a saída no console, ou `python3 main.py > log.txt` para executar o código e salvar toda a saída diretamente no arquivo `log.txt`.
 
 
 O diretório contém os scripts bash `upload.sh`, `download.sh` e `git_config.sh` que, respectivamente, automatiza o procedimento de commit+push, automatiza o procedimento de merge+pull do diretório e que configura o salvamento das credenciais do github, removendo a necessidade de inserí-las a cada push. Os scripts podem ser executados através do comando `bash <script>`.
