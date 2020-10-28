@@ -9,12 +9,13 @@ def pesquisa_binaria(lista, nome, inicio = 0, fim = None, compara = 0):
     compara += 1
 
     if inicio > fim:
-        print("Nome não encontrado com." + str(compara) + "comparações.\n")
+        print("\t\tNome NÃO encontrado após {} comparações.".format(str(compara)) )
+        return -1
     elif(nome == auxiliar):
-        print("Nome encontrado com ." + str(compara) + " comparações.\n")
-        print(lista[meio])
+        print("\t\tNome encontrado após {} comparações.".format(str(compara)) )
+        return meio
     else:
         if nome > auxiliar:
-            pesquisa_binaria(lista, nome, meio + 1, fim, compara)
+            return pesquisa_binaria(lista, nome, meio + 1, fim, compara)
         else:
-            pesquisa_binaria(lista, nome, inicio, meio - 1, compara)
+            return pesquisa_binaria(lista, nome, inicio, meio - 1, compara)

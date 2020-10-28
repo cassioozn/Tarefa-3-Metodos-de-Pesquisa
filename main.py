@@ -9,91 +9,70 @@ import pesquisa_sequencial
 import sys
 
 def main():
-    print("PESQUISA SEQUENCIAL")
-    print("---------------------------------------------------------------------------------------------")
 
-    with open("Nomes.txt") as base_nomes:
-        print("1000 NOMES.\n")
-        print("----------------------------------------------------------------------------------------------\n")
-        with open("1000/crescente_1000.csv") as file:
-            data = list(DictReader(file))
-            for nome in base_nomes.readlines():
-                print("=============================================================================================\n")
-                pesquisa_sequencial.pesquisa_sequencial(data, nome.strip())
+    comprimento_linhas = 80
 
-    with open("Nomes.txt") as base_nomes:
-        print("\n----------------------------------------------------------------------------------------------\n")
-        print("2000 NOMES.\n")
-        print("----------------------------------------------------------------------------------------------\n")
-        with open("2000/crescente_2000.csv") as file:
-            data = list(DictReader(file))
-            for nome in base_nomes.readlines():
-                print("\n============================================================================================\n")
-                pesquisa_sequencial.pesquisa_sequencial(data, nome.strip())
+    # Lista com os caminhos dos arquivos nos quais será efetuada a busca.
+    lista_caminhos = [
+    "datasets_prontos/1000/crescente_1000.csv",
+    "datasets_prontos/2000/crescente_2000.csv",
+    "datasets_prontos/3000/crescente_3000.csv",
+    "datasets_prontos/5000/crescente_5000.csv"
+    ]
 
-    with open("Nomes.txt") as base_nomes:
-        with open("3000/crescente_3000.csv") as file:
-            print("\n----------------------------------------------------------------------------------------------\n")
-            print("3000 NOMES.\n")
-            print("----------------------------------------------------------------------------------------------\n")
-            data = list(DictReader(file))
-            for nome in base_nomes.readlines():
-                print("\n============================================================================================\n")
-                print("\n\"" + nome.strip() + "\"\n")
-                pesquisa_sequencial.pesquisa_sequencial(data, nome.strip())
+    lista_nomes = [] # Lista que será preenchida com os nomes 
 
-    with open("Nomes.txt") as base_nomes:
-        with open("5000/crescente_5000.csv") as file:
-            print("\n----------------------------------------------------------------------------------------------\n")
-            print("5000 NOMES.\n")
-            print("----------------------------------------------------------------------------------------------\n")
-            data = list(DictReader(file))
-            for nome in base_nomes.readlines():
-                pesquisa_sequencial.pesquisa_sequencial(data, nome.strip())
-                print("\n============================================================================================\n")
+    # Preenche a lista com os nomes.
+    with open("Nomes.txt") as arquivo_nomes:
+        for nome in arquivo_nomes.readlines():
+            lista_nomes.append(nome.strip())
 
-    print("\n----------------------------------------------------------------------------------------------")
-    print("PESQUISA BINÁRIA")
-    print("----------------------------------------------------------------------------------------------")
+    # Parte da pesquisa sequencial
+    print("="*comprimento_linhas)
+    print("\tPESQUISA SEQUENCIAL")
+    print("="*comprimento_linhas)
 
-    with open("Nomes.txt") as base_nomes:
-        with open("1000/crescente_1000.csv") as file:
-            print("1000 NOMES.\n")
-            print("----------------------------------------------------------------------------------------------\n")
-            data = list(DictReader(file))
-            for nome in base_nomes.readlines():
-                print("=============================================================================================\n")
-                pesquisa_binaria.pesquisa_binaria(data, nome.strip())
+    for caminho in lista_caminhos:
 
-    with open("Nomes.txt") as base_nomes:
-        with open("2000/crescente_2000.csv") as file:
-            print("\n----------------------------------------------------------------------------------------------\n")
-            print("2000 NOMES.\n")
-            print("----------------------------------------------------------------------------------------------\n")
-            data = list(DictReader(file))
-            for nome in base_nomes.readlines():
-                pesquisa_binaria.pesquisa_binaria(data, nome.strip())
-                print("\n============================================================================================\n")
+        print("\tRealizando pesquisas no arquivo \"{}\"...".format(caminho))
+        print("-"*comprimento_linhas)
 
-    with open("Nomes.txt") as base_nomes:
-        with open("3000/crescente_3000.csv") as file:
-            print("\n----------------------------------------------------------------------------------------------\n")
-            print("3000 NOMES.\n")
-            print("----------------------------------------------------------------------------------------------\n")
-            data = list(DictReader(file))
-            for nome in base_nomes.readlines():
-                pesquisa_binaria.pesquisa_binaria(data, nome.strip())
-                print("\n============================================================================================\n")
+        # Loop que itera sobre a lista de caminhos de arquivos nos quais será realizada a pesquisa.
+        with open(caminho) as arquivo:
+            dados = list(DictReader(arquivo))
 
-    with open("Nomes.txt") as base_nomes:
-        with open("5000/crescente_5000.csv") as file:
-            print("\n----------------------------------------------------------------------------------------------\n")
-            print("5000 NOMES.\n")
-            print("----------------------------------------------------------------------------------------------\n")
-            data = list(DictReader(file))
-            for nome in base_nomes.readlines():
-                pesquisa_binaria.pesquisa_binaria(data, nome.strip())
-                print("\n============================================================================================\n")
+            # Loop que itera sobre os nomes a serem buscados.
+            for nome in lista_nomes:
+                print("\tProcurando por \"{}\" no arquivo...".format(nome))
+                resultado = pesquisa_sequencial.pesquisa_sequencial(dados, nome)
+                if resultado > 0:
+                    printf("\t\tO elemento estava na posição {}.".format(resultado))
+
+        print("\n\n{}".format("-"*comprimento_linhas))
+
+
+    # Parte da pesquisa binária
+    print("="*comprimento_linhas)
+    print("\tPESQUISA BINÁRIA")
+    print("="*comprimento_linhas)
+
+    # Loop que itera sobre a lista de caminhos de arquivos nos quais será realizada a pesquisa.
+    for caminho in lista_caminhos:
+
+        print("\t\tRealizando pesquisas no arquivo \"{}\"...".format(caminho))
+        print("-"*comprimento_linhas)
+
+        with open(caminho) as arquivo:
+            dados = list(DictReader(arquivo))
+
+            # Loop que itera sobre os nomes a serem buscados.
+            for nome in lista_nomes:
+                print("\tProcurando por \"{}\" no arquivo...".format(nome))
+                resultado = pesquisa_binaria.pesquisa_binaria(dados, nome)
+                if resultado > 0:
+                    printf("O elemento estava na posição {}.".format(resultado))
+
+        print("\n\n{}".format("-"*comprimento_linhas))
 
 
 if __name__ == "__main__":

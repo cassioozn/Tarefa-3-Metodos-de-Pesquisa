@@ -4,7 +4,7 @@ def pesquisa_sequencial(lista, nome):
     for i in range(0, tamanho):
         compara += 1
         if(nome == lista[i]["first_name"]):
-            print("Nome encontrado com ." + str(compara) + " comparações")
-            print(lista[i])
-            return
-    print("Nome não encontrado com " + str(compara))
+            print("\t\tNome encontrado após {} comparações.".format(str(compara)) )
+            return i
+    print("\t\tNome NÃO encontrado após {} comparações.".format(str(compara)) )
+    return -1
