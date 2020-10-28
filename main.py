@@ -22,8 +22,8 @@ def main():
 
     lista_nomes = [] # Lista que será preenchida com os nomes 
 
-    # Preenche a lista com os nomes.
-    with open("Nomes.txt") as arquivo_nomes:
+    # Preenche a lista com os nomes do arquivo.
+    with open("nomes_para_busca.txt") as arquivo_nomes:
         for nome in arquivo_nomes.readlines():
             lista_nomes.append(nome.strip())
 
