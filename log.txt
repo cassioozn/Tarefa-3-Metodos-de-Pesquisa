@@ -1,0 +1,244 @@
+================================================================================
+	PESQUISA SEQUENCIAL
+================================================================================
+	Realizando pesquisas no arquivo "datasets_prontos/1000/crescente.csv"...
+--------------------------------------------------------------------------------
+	Procurando por "Abbey" no arquivo...
+		Nome encontrado após 1 comparações.
+
+	Procurando por "Nonie" no arquivo...
+		Nome encontrado após 721 comparações.
+		O elemento estava na posição 720.
+
+	Procurando por "Zack" no arquivo...
+		Nome não encontrado após 1000 comparações.
+
+	Procurando por "Torrie" no arquivo...
+		Nome não encontrado após 1000 comparações.
+
+	Procurando por "Emmett" no arquivo...
+		Nome não encontrado após 1000 comparações.
+
+	Procurando por "Lancelot" no arquivo...
+		Nome encontrado após 589 comparações.
+		O elemento estava na posição 588.
+
+	Procurando por "Yorker" no arquivo...
+		Nome encontrado após 997 comparações.
+		O elemento estava na posição 996.
+
+
+--------------------------------------------------------------------------------
+	Realizando pesquisas no arquivo "datasets_prontos/2000/crescente.csv"...
+--------------------------------------------------------------------------------
+	Procurando por "Abbey" no arquivo...
+		Nome não encontrado após 2000 comparações.
+
+	Procurando por "Nonie" no arquivo...
+		Nome encontrado após 1481 comparações.
+		O elemento estava na posição 1480.
+
+	Procurando por "Zack" no arquivo...
+		Nome não encontrado após 2000 comparações.
+
+	Procurando por "Torrie" no arquivo...
+		Nome encontrado após 1869 comparações.
+		O elemento estava na posição 1868.
+
+	Procurando por "Emmett" no arquivo...
+		Nome encontrado após 661 comparações.
+		O elemento estava na posição 660.
+
+	Procurando por "Lancelot" no arquivo...
+		Nome encontrado após 1181 comparações.
+		O elemento estava na posição 1180.
+
+	Procurando por "Yorker" no arquivo...
+		Nome encontrado após 1981 comparações.
+		O elemento estava na posição 1980.
+
+
+--------------------------------------------------------------------------------
+	Realizando pesquisas no arquivo "datasets_prontos/3000/crescente.csv"...
+--------------------------------------------------------------------------------
+	Procurando por "Abbey" no arquivo...
+		Nome encontrado após 5 comparações.
+		O elemento estava na posição 4.
+
+	Procurando por "Nonie" no arquivo...
+		Nome não encontrado após 3000 comparações.
+
+	Procurando por "Zack" no arquivo...
+		Nome encontrado após 2983 comparações.
+		O elemento estava na posição 2982.
+
+	Procurando por "Torrie" no arquivo...
+		Nome encontrado após 2793 comparações.
+		O elemento estava na posição 2792.
+
+	Procurando por "Emmett" no arquivo...
+		Nome não encontrado após 3000 comparações.
+
+	Procurando por "Lancelot" no arquivo...
+		Nome encontrado após 1702 comparações.
+		O elemento estava na posição 1701.
+
+	Procurando por "Yorker" no arquivo...
+		Nome encontrado após 2969 comparações.
+		O elemento estava na posição 2968.
+
+
+--------------------------------------------------------------------------------
+	Realizando pesquisas no arquivo "datasets_prontos/5000/crescente.csv"...
+--------------------------------------------------------------------------------
+	Procurando por "Abbey" no arquivo...
+		Nome encontrado após 8 comparações.
+		O elemento estava na posição 7.
+
+	Procurando por "Nonie" no arquivo...
+		Nome encontrado após 3595 comparações.
+		O elemento estava na posição 3594.
+
+	Procurando por "Zack" no arquivo...
+		Nome encontrado após 4970 comparações.
+		O elemento estava na posição 4969.
+
+	Procurando por "Torrie" no arquivo...
+		Nome não encontrado após 5000 comparações.
+
+	Procurando por "Emmett" no arquivo...
+		Nome encontrado após 1543 comparações.
+		O elemento estava na posição 1542.
+
+	Procurando por "Lancelot" no arquivo...
+		Nome encontrado após 2808 comparações.
+		O elemento estava na posição 2807.
+
+	Procurando por "Yorker" no arquivo...
+		Nome encontrado após 4953 comparações.
+		O elemento estava na posição 4952.
+
+
+--------------------------------------------------------------------------------
+================================================================================
+	PESQUISA BINÁRIA
+================================================================================
+	Realizando pesquisas no arquivo "datasets_prontos/1000/crescente.csv"...
+--------------------------------------------------------------------------------
+	Procurando por "Abbey" no arquivo...
+		Nome encontrado após 9 comparações.
+
+	Procurando por "Nonie" no arquivo...
+		Nome encontrado após 10 comparações.
+		O elemento estava na posição 720.
+
+	Procurando por "Zack" no arquivo...
+		Nome não encontrado após 11 comparações.
+
+	Procurando por "Torrie" no arquivo...
+		Nome não encontrado após 11 comparações.
+
+	Procurando por "Emmett" no arquivo...
+		Nome não encontrado após 11 comparações.
+
+	Procurando por "Lancelot" no arquivo...
+		Nome encontrado após 8 comparações.
+		O elemento estava na posição 588.
+
+	Procurando por "Yorker" no arquivo...
+		Nome encontrado após 8 comparações.
+		O elemento estava na posição 996.
+
+
+--------------------------------------------------------------------------------
+	Realizando pesquisas no arquivo "datasets_prontos/2000/crescente.csv"...
+--------------------------------------------------------------------------------
+	Procurando por "Abbey" no arquivo...
+		Nome não encontrado após 12 comparações.
+
+	Procurando por "Nonie" no arquivo...
+		Nome encontrado após 11 comparações.
+		O elemento estava na posição 1480.
+
+	Procurando por "Zack" no arquivo...
+		Nome não encontrado após 12 comparações.
+
+	Procurando por "Torrie" no arquivo...
+		Nome encontrado após 10 comparações.
+		O elemento estava na posição 1868.
+
+	Procurando por "Emmett" no arquivo...
+		Nome encontrado após 10 comparações.
+		O elemento estava na posição 660.
+
+	Procurando por "Lancelot" no arquivo...
+		Nome encontrado após 10 comparações.
+		O elemento estava na posição 1180.
+
+	Procurando por "Yorker" no arquivo...
+		Nome encontrado após 9 comparações.
+		O elemento estava na posição 1980.
+
+
+--------------------------------------------------------------------------------
+	Realizando pesquisas no arquivo "datasets_prontos/3000/crescente.csv"...
+--------------------------------------------------------------------------------
+	Procurando por "Abbey" no arquivo...
+		Nome encontrado após 9 comparações.
+		O elemento estava na posição 4.
+
+	Procurando por "Nonie" no arquivo...
+		Nome não encontrado após 13 comparações.
+
+	Procurando por "Zack" no arquivo...
+		Nome encontrado após 9 comparações.
+		O elemento estava na posição 2982.
+
+	Procurando por "Torrie" no arquivo...
+		Nome encontrado após 11 comparações.
+		O elemento estava na posição 2792.
+
+	Procurando por "Emmett" no arquivo...
+		Nome não encontrado após 12 comparações.
+
+	Procurando por "Lancelot" no arquivo...
+		Nome encontrado após 11 comparações.
+		O elemento estava na posição 1701.
+
+	Procurando por "Yorker" no arquivo...
+		Nome encontrado após 11 comparações.
+		O elemento estava na posição 2968.
+
+
+--------------------------------------------------------------------------------
+	Realizando pesquisas no arquivo "datasets_prontos/5000/crescente.csv"...
+--------------------------------------------------------------------------------
+	Procurando por "Abbey" no arquivo...
+		Nome encontrado após 13 comparações.
+		O elemento estava na posição 7.
+
+	Procurando por "Nonie" no arquivo...
+		Nome encontrado após 11 comparações.
+		O elemento estava na posição 3594.
+
+	Procurando por "Zack" no arquivo...
+		Nome encontrado após 13 comparações.
+		O elemento estava na posição 4969.
+
+	Procurando por "Torrie" no arquivo...
+		Nome não encontrado após 13 comparações.
+
+	Procurando por "Emmett" no arquivo...
+		Nome encontrado após 12 comparações.
+		O elemento estava na posição 1542.
+
+	Procurando por "Lancelot" no arquivo...
+		Nome encontrado após 12 comparações.
+		O elemento estava na posição 2807.
+
+	Procurando por "Yorker" no arquivo...
+		Nome encontrado após 11 comparações.
+		O elemento estava na posição 4952.
+
+
+--------------------------------------------------------------------------------
