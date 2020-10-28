@@ -4,27 +4,48 @@
 	Realizando pesquisas no arquivo "datasets_prontos/1000/crescente.csv"...
 --------------------------------------------------------------------------------
 	Procurando por "Abbey" no arquivo...
-		Nome encontrado após 1 comparações.
+		Entrada encontrada após 1 comparações:
+			first_name: "Abbey"
+			last_name: "Atmore"
+			email: "aatmore1x@wufoo.com"
+			gender: "Male"
+			ip_address: "62.7.21.108"
+		O elemento estava na posição 0.
 
 	Procurando por "Nonie" no arquivo...
-		Nome encontrado após 721 comparações.
+		Entrada encontrada após 721 comparações:
+			first_name: "Nonie"
+			last_name: "Purrington"
+			email: "npurringtonlo@about.com"
+			gender: "Female"
+			ip_address: "108.158.117.48"
 		O elemento estava na posição 720.
 
 	Procurando por "Zack" no arquivo...
-		Nome não encontrado após 1000 comparações.
+		Entrada não encontrada após 1000 comparações.
 
 	Procurando por "Torrie" no arquivo...
-		Nome não encontrado após 1000 comparações.
+		Entrada não encontrada após 1000 comparações.
 
 	Procurando por "Emmett" no arquivo...
-		Nome não encontrado após 1000 comparações.
+		Entrada não encontrada após 1000 comparações.
 
 	Procurando por "Lancelot" no arquivo...
-		Nome encontrado após 589 comparações.
+		Entrada encontrada após 589 comparações:
+			first_name: "Lancelot"
+			last_name: "Blindmann"
+			email: "lblindmannu@oakley.com"
+			gender: "Male"
+			ip_address: "234.250.12.69"
 		O elemento estava na posição 588.
 
 	Procurando por "Yorker" no arquivo...
-		Nome encontrado após 997 comparações.
+		Entrada encontrada após 997 comparações:
+			first_name: "Yorker"
+			last_name: "Pavlishchev"
+			email: "ypavlishchevny@nydailynews.com"
+			gender: "Male"
+			ip_address: "105.177.75.82"
 		O elemento estava na posição 996.
 
 
@@ -32,29 +53,54 @@
 	Realizando pesquisas no arquivo "datasets_prontos/2000/crescente.csv"...
 --------------------------------------------------------------------------------
 	Procurando por "Abbey" no arquivo...
-		Nome não encontrado após 2000 comparações.
+		Entrada não encontrada após 2000 comparações.
 
 	Procurando por "Nonie" no arquivo...
-		Nome encontrado após 1481 comparações.
+		Entrada encontrada após 1481 comparações:
+			first_name: "Nonie"
+			last_name: "Glavias"
+			email: "nglavias9b@techcrunch.com"
+			gender: "Female"
+			ip_address: "157.59.102.50"
 		O elemento estava na posição 1480.
 
 	Procurando por "Zack" no arquivo...
-		Nome não encontrado após 2000 comparações.
+		Entrada não encontrada após 2000 comparações.
 
 	Procurando por "Torrie" no arquivo...
-		Nome encontrado após 1869 comparações.
+		Entrada encontrada após 1869 comparações:
+			first_name: "Torrie"
+			last_name: "Filippo"
+			email: "tfilippoem@imdb.com"
+			gender: "Female"
+			ip_address: "69.114.61.72"
 		O elemento estava na posição 1868.
 
 	Procurando por "Emmett" no arquivo...
-		Nome encontrado após 661 comparações.
+		Entrada encontrada após 661 comparações:
+			first_name: "Emmett"
+			last_name: "Szapiro"
+			email: "eszapiropq@techcrunch.com"
+			gender: "Male"
+			ip_address: "235.77.99.43"
 		O elemento estava na posição 660.
 
 	Procurando por "Lancelot" no arquivo...
-		Nome encontrado após 1181 comparações.
+		Entrada encontrada após 1181 comparações:
+			first_name: "Lancelot"
+			last_name: "Eusden"
+			email: "leusdeny@gmpg.org"
+			gender: "Male"
+			ip_address: "7.145.235.42"
 		O elemento estava na posição 1180.
 
 	Procurando por "Yorker" no arquivo...
-		Nome encontrado após 1981 comparações.
+		Entrada encontrada após 1981 comparações:
+			first_name: "Yorker"
+			last_name: "Browell"
+			email: "ybrowellqs@google.com"
+			gender: "Male"
+			ip_address: "14.108.228.39"
 		O elemento estava na posição 1980.
 
 
@@ -62,29 +108,54 @@
 	Realizando pesquisas no arquivo "datasets_prontos/3000/crescente.csv"...
 --------------------------------------------------------------------------------
 	Procurando por "Abbey" no arquivo...
-		Nome encontrado após 5 comparações.
+		Entrada encontrada após 5 comparações:
+			first_name: "Abbey"
+			last_name: "Wellwood"
+			email: "awellwoodlm@ed.gov"
+			gender: "Male"
+			ip_address: "210.58.44.93"
 		O elemento estava na posição 4.
 
 	Procurando por "Nonie" no arquivo...
-		Nome não encontrado após 3000 comparações.
+		Entrada não encontrada após 3000 comparações.
 
 	Procurando por "Zack" no arquivo...
-		Nome encontrado após 2983 comparações.
+		Entrada encontrada após 2983 comparações:
+			first_name: "Zack"
+			last_name: "Ferron"
+			email: "zferronin@webmd.com"
+			gender: "Male"
+			ip_address: "243.35.238.94"
 		O elemento estava na posição 2982.
 
 	Procurando por "Torrie" no arquivo...
-		Nome encontrado após 2793 comparações.
+		Entrada encontrada após 2793 comparações:
+			first_name: "Torrie"
+			last_name: "Hughesdon"
+			email: "thughesdonby@skype.com"
+			gender: "Female"
+			ip_address: "158.9.226.100"
 		O elemento estava na posição 2792.
 
 	Procurando por "Emmett" no arquivo...
-		Nome não encontrado após 3000 comparações.
+		Entrada não encontrada após 3000 comparações.
 
 	Procurando por "Lancelot" no arquivo...
-		Nome encontrado após 1702 comparações.
+		Entrada encontrada após 1702 comparações:
+			first_name: "Lancelot"
+			last_name: "Crotty"
+			email: "lcrottylt@narod.ru"
+			gender: "Male"
+			ip_address: "142.233.200.20"
 		O elemento estava na posição 1701.
 
 	Procurando por "Yorker" no arquivo...
-		Nome encontrado após 2969 comparações.
+		Entrada encontrada após 2969 comparações:
+			first_name: "Yorker"
+			last_name: "Franklin"
+			email: "yfranklin82@wisc.edu"
+			gender: "Male"
+			ip_address: "183.177.220.180"
 		O elemento estava na posição 2968.
 
 
@@ -92,30 +163,60 @@
 	Realizando pesquisas no arquivo "datasets_prontos/5000/crescente.csv"...
 --------------------------------------------------------------------------------
 	Procurando por "Abbey" no arquivo...
-		Nome encontrado após 8 comparações.
+		Entrada encontrada após 8 comparações:
+			first_name: "Abbey"
+			last_name: "Atmore"
+			email: "aatmore1x@wufoo.com"
+			gender: "Male"
+			ip_address: "62.7.21.108"
 		O elemento estava na posição 7.
 
 	Procurando por "Nonie" no arquivo...
-		Nome encontrado após 3595 comparações.
+		Entrada encontrada após 3595 comparações:
+			first_name: "Nonie"
+			last_name: "Purrington"
+			email: "npurringtonlo@about.com"
+			gender: "Female"
+			ip_address: "108.158.117.48"
 		O elemento estava na posição 3594.
 
 	Procurando por "Zack" no arquivo...
-		Nome encontrado após 4970 comparações.
+		Entrada encontrada após 4970 comparações:
+			first_name: "Zack"
+			last_name: "Nelmes"
+			email: "znelmeskp@imgur.com"
+			gender: "Male"
+			ip_address: "133.79.25.94"
 		O elemento estava na posição 4969.
 
 	Procurando por "Torrie" no arquivo...
-		Nome não encontrado após 5000 comparações.
+		Entrada não encontrada após 5000 comparações.
 
 	Procurando por "Emmett" no arquivo...
-		Nome encontrado após 1543 comparações.
+		Entrada encontrada após 1543 comparações:
+			first_name: "Emmett"
+			last_name: "Dowdall"
+			email: "edowdall3k@yahoo.co.jp"
+			gender: "Male"
+			ip_address: "78.54.106.138"
 		O elemento estava na posição 1542.
 
 	Procurando por "Lancelot" no arquivo...
-		Nome encontrado após 2808 comparações.
+		Entrada encontrada após 2808 comparações:
+			first_name: "Lancelot"
+			last_name: "Blindmann"
+			email: "lblindmannu@oakley.com"
+			gender: "Male"
+			ip_address: "234.250.12.69"
 		O elemento estava na posição 2807.
 
 	Procurando por "Yorker" no arquivo...
-		Nome encontrado após 4953 comparações.
+		Entrada encontrada após 4953 comparações:
+			first_name: "Yorker"
+			last_name: "Pavlishchev"
+			email: "ypavlishchevny@nydailynews.com"
+			gender: "Male"
+			ip_address: "105.177.75.82"
 		O elemento estava na posição 4952.
 
 
@@ -126,27 +227,48 @@
 	Realizando pesquisas no arquivo "datasets_prontos/1000/crescente.csv"...
 --------------------------------------------------------------------------------
 	Procurando por "Abbey" no arquivo...
-		Nome encontrado após 9 comparações.
+		Entrada encontrada após 9 comparações:
+			first_name: "Abbey"
+			last_name: "Atmore"
+			email: "aatmore1x@wufoo.com"
+			gender: "Male"
+			ip_address: "62.7.21.108"
+		O elemento estava na posição 0.
 
 	Procurando por "Nonie" no arquivo...
-		Nome encontrado após 10 comparações.
+		Entrada encontrada após 10 comparações:
+			first_name: "Nonie"
+			last_name: "Purrington"
+			email: "npurringtonlo@about.com"
+			gender: "Female"
+			ip_address: "108.158.117.48"
 		O elemento estava na posição 720.
 
 	Procurando por "Zack" no arquivo...
-		Nome não encontrado após 11 comparações.
+		Entrada não encontrada após 11 comparações.
 
 	Procurando por "Torrie" no arquivo...
-		Nome não encontrado após 11 comparações.
+		Entrada não encontrada após 11 comparações.
 
 	Procurando por "Emmett" no arquivo...
-		Nome não encontrado após 11 comparações.
+		Entrada não encontrada após 11 comparações.
 
 	Procurando por "Lancelot" no arquivo...
-		Nome encontrado após 8 comparações.
+		Entrada encontrada após 8 comparações:
+			first_name: "Lancelot"
+			last_name: "Blindmann"
+			email: "lblindmannu@oakley.com"
+			gender: "Male"
+			ip_address: "234.250.12.69"
 		O elemento estava na posição 588.
 
 	Procurando por "Yorker" no arquivo...
-		Nome encontrado após 8 comparações.
+		Entrada encontrada após 8 comparações:
+			first_name: "Yorker"
+			last_name: "Pavlishchev"
+			email: "ypavlishchevny@nydailynews.com"
+			gender: "Male"
+			ip_address: "105.177.75.82"
 		O elemento estava na posição 996.
 
 
@@ -154,29 +276,54 @@
 	Realizando pesquisas no arquivo "datasets_prontos/2000/crescente.csv"...
 --------------------------------------------------------------------------------
 	Procurando por "Abbey" no arquivo...
-		Nome não encontrado após 12 comparações.
+		Entrada não encontrada após 12 comparações.
 
 	Procurando por "Nonie" no arquivo...
-		Nome encontrado após 11 comparações.
+		Entrada encontrada após 11 comparações:
+			first_name: "Nonie"
+			last_name: "Glavias"
+			email: "nglavias9b@techcrunch.com"
+			gender: "Female"
+			ip_address: "157.59.102.50"
 		O elemento estava na posição 1480.
 
 	Procurando por "Zack" no arquivo...
-		Nome não encontrado após 12 comparações.
+		Entrada não encontrada após 12 comparações.
 
 	Procurando por "Torrie" no arquivo...
-		Nome encontrado após 10 comparações.
+		Entrada encontrada após 10 comparações:
+			first_name: "Torrie"
+			last_name: "Filippo"
+			email: "tfilippoem@imdb.com"
+			gender: "Female"
+			ip_address: "69.114.61.72"
 		O elemento estava na posição 1868.
 
 	Procurando por "Emmett" no arquivo...
-		Nome encontrado após 10 comparações.
+		Entrada encontrada após 10 comparações:
+			first_name: "Emmett"
+			last_name: "Szapiro"
+			email: "eszapiropq@techcrunch.com"
+			gender: "Male"
+			ip_address: "235.77.99.43"
 		O elemento estava na posição 660.
 
 	Procurando por "Lancelot" no arquivo...
-		Nome encontrado após 10 comparações.
+		Entrada encontrada após 10 comparações:
+			first_name: "Lancelot"
+			last_name: "Eusden"
+			email: "leusdeny@gmpg.org"
+			gender: "Male"
+			ip_address: "7.145.235.42"
 		O elemento estava na posição 1180.
 
 	Procurando por "Yorker" no arquivo...
-		Nome encontrado após 9 comparações.
+		Entrada encontrada após 9 comparações:
+			first_name: "Yorker"
+			last_name: "Browell"
+			email: "ybrowellqs@google.com"
+			gender: "Male"
+			ip_address: "14.108.228.39"
 		O elemento estava na posição 1980.
 
 
@@ -184,29 +331,54 @@
 	Realizando pesquisas no arquivo "datasets_prontos/3000/crescente.csv"...
 --------------------------------------------------------------------------------
 	Procurando por "Abbey" no arquivo...
-		Nome encontrado após 9 comparações.
+		Entrada encontrada após 9 comparações:
+			first_name: "Abbey"
+			last_name: "Wellwood"
+			email: "awellwoodlm@ed.gov"
+			gender: "Male"
+			ip_address: "210.58.44.93"
 		O elemento estava na posição 4.
 
 	Procurando por "Nonie" no arquivo...
-		Nome não encontrado após 13 comparações.
+		Entrada não encontrada após 13 comparações.
 
 	Procurando por "Zack" no arquivo...
-		Nome encontrado após 9 comparações.
+		Entrada encontrada após 9 comparações:
+			first_name: "Zack"
+			last_name: "Ferron"
+			email: "zferronin@webmd.com"
+			gender: "Male"
+			ip_address: "243.35.238.94"
 		O elemento estava na posição 2982.
 
 	Procurando por "Torrie" no arquivo...
-		Nome encontrado após 11 comparações.
+		Entrada encontrada após 11 comparações:
+			first_name: "Torrie"
+			last_name: "Hughesdon"
+			email: "thughesdonby@skype.com"
+			gender: "Female"
+			ip_address: "158.9.226.100"
 		O elemento estava na posição 2792.
 
 	Procurando por "Emmett" no arquivo...
-		Nome não encontrado após 12 comparações.
+		Entrada não encontrada após 12 comparações.
 
 	Procurando por "Lancelot" no arquivo...
-		Nome encontrado após 11 comparações.
+		Entrada encontrada após 11 comparações:
+			first_name: "Lancelot"
+			last_name: "Crotty"
+			email: "lcrottylt@narod.ru"
+			gender: "Male"
+			ip_address: "142.233.200.20"
 		O elemento estava na posição 1701.
 
 	Procurando por "Yorker" no arquivo...
-		Nome encontrado após 11 comparações.
+		Entrada encontrada após 11 comparações:
+			first_name: "Yorker"
+			last_name: "Franklin"
+			email: "yfranklin82@wisc.edu"
+			gender: "Male"
+			ip_address: "183.177.220.180"
 		O elemento estava na posição 2968.
 
 
@@ -214,30 +386,60 @@
 	Realizando pesquisas no arquivo "datasets_prontos/5000/crescente.csv"...
 --------------------------------------------------------------------------------
 	Procurando por "Abbey" no arquivo...
-		Nome encontrado após 13 comparações.
+		Entrada encontrada após 13 comparações:
+			first_name: "Abbey"
+			last_name: "Atmore"
+			email: "aatmore1x@wufoo.com"
+			gender: "Male"
+			ip_address: "62.7.21.108"
 		O elemento estava na posição 7.
 
 	Procurando por "Nonie" no arquivo...
-		Nome encontrado após 11 comparações.
+		Entrada encontrada após 11 comparações:
+			first_name: "Nonie"
+			last_name: "Purrington"
+			email: "npurringtonlo@about.com"
+			gender: "Female"
+			ip_address: "108.158.117.48"
 		O elemento estava na posição 3594.
 
 	Procurando por "Zack" no arquivo...
-		Nome encontrado após 13 comparações.
+		Entrada encontrada após 13 comparações:
+			first_name: "Zack"
+			last_name: "Nelmes"
+			email: "znelmeskp@imgur.com"
+			gender: "Male"
+			ip_address: "133.79.25.94"
 		O elemento estava na posição 4969.
 
 	Procurando por "Torrie" no arquivo...
-		Nome não encontrado após 13 comparações.
+		Entrada não encontrada após 13 comparações.
 
 	Procurando por "Emmett" no arquivo...
-		Nome encontrado após 12 comparações.
+		Entrada encontrada após 12 comparações:
+			first_name: "Emmett"
+			last_name: "Dowdall"
+			email: "edowdall3k@yahoo.co.jp"
+			gender: "Male"
+			ip_address: "78.54.106.138"
 		O elemento estava na posição 1542.
 
 	Procurando por "Lancelot" no arquivo...
-		Nome encontrado após 12 comparações.
+		Entrada encontrada após 12 comparações:
+			first_name: "Lancelot"
+			last_name: "Blindmann"
+			email: "lblindmannu@oakley.com"
+			gender: "Male"
+			ip_address: "234.250.12.69"
 		O elemento estava na posição 2807.
 
 	Procurando por "Yorker" no arquivo...
-		Nome encontrado após 11 comparações.
+		Entrada encontrada após 11 comparações:
+			first_name: "Yorker"
+			last_name: "Pavlishchev"
+			email: "ypavlishchevny@nydailynews.com"
+			gender: "Male"
+			ip_address: "105.177.75.82"
 		O elemento estava na posição 4952.
 
 

@@ -1,8 +1,7 @@
 # coding: utf-8
 
 from csv import DictReader
-from pathlib import Path, PureWindowsPath
-from tabulate import tabulate
+import json
 
 import pesquisa_binaria
 import pesquisa_sequencial
@@ -51,8 +50,9 @@ def main():
             for nome in lista_nomes:
                 print("\tProcurando por \"{}\" no arquivo...".format(nome))
                 resultado = pesquisa_sequencial.pesquisa_sequencial(dados, nome)
-                if resultado > 0:
-                    print("\t\tO elemento estava na posição {}.".format(resultado))
+                if resultado >= 0:
+                	print(dictToString(dados[resultado], indent=3))
+                	print("\t\tO elemento estava na posição {}.".format(resultado))
                 print("")
 
         print("\n{}".format("-"*comprimento_linhas))
@@ -78,11 +78,24 @@ def main():
             for nome in lista_nomes:
                 print("\tProcurando por \"{}\" no arquivo...".format(nome))
                 resultado = pesquisa_binaria.pesquisa_binaria(dados, nome)
-                if resultado > 0:
-                    print("\t\tO elemento estava na posição {}.".format(resultado))
+                if resultado >= 0:
+                	print(dictToString(dados[resultado], indent=3))
+                	print("\t\tO elemento estava na posição {}.".format(resultado))
                 print("")
 
         print("\n{}".format("-"*comprimento_linhas))
+
+def dictToString(dictionary, indent=0):
+	leading = "\t"*indent
+	string = ""
+
+	for key, value in dictionary.items():
+		string += "{}{}: \"{}\"".format(leading, key, value)
+
+		if key != list(dictionary.keys())[-1]:
+			string += "\n"
+
+	return string
 
 
 if __name__ == "__main__":
