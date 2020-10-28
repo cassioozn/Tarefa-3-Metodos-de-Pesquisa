@@ -2,7 +2,7 @@
 Repositório criado para desenvolver as atividades para a disciplina de Estrutura de Dados 2 conforme proposta.
 
 
-O diretório contém os scripts bash `upload.sh` e `download.sh` que podem ser executados através do comando `bash upload.sh` ou `bash download.sh` que automatizam o procedimento de commit+push e merge+pull do diretório.
+O diretório contém os scripts bash `upload.sh`, `download.sh` e `git_config.sh` que, respectivamente, automatiza o procedimento de commit+push, automatiza o procedimento de merge+pull do diretório e que configura o salvamento das credenciais do github, removendo a necessidade de inserí-las a cada push. Os scripts podem ser executados através do comando `bash <script>`.
 
 ---
 
